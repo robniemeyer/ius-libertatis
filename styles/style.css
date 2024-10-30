@@ -38,6 +38,14 @@ body {
   padding: 0 1rem;
 }
 
+nav {
+  margin-bottom: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
 h1,
 h2 {
   font-weight: 700;
@@ -107,10 +115,6 @@ em {
   font-family: monospace;
   user-select: all;
   word-break: break-all;
-}
-
-footer li {
-  display: inline;
 }
 
 @media only screen and (min-width: 768px) {
